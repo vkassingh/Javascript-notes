@@ -1,1 +1,117 @@
+✅ Data Types
+Primitive: String, Number, Boolean, Null, Undefined, Symbol, BigInt
+Reference: Object, Array, Function
+
+✅ JavaScript Object
+Object is a collection of key-value pairs.
+Keys are strings type; values can be any data type.
+
+✅ Var let const(these are used to create variables)
+Var - function scoped , can be redeclared and updated( re initiliased) 
+Let - block scoped, cannot redeclared but can be updated. 
+Const - block scoped, cannot be redeclared or updated.
+
+✅ Hoisting
+It is the defailt behaviour by which the variable and function declaration are moved 
+to top of scope. 
+
+
+✅ Null vs undefined
+Null - represents intentional absence of  value
+undefined- represents absence of value because a variable is not assigned any value.
+
+✅ Callbacks functions
+Are functions that are passed as an argument to another functions. 
+
+✅ IIFE (Immediately Invoked Function Expression) 
+It is a JavaScript function that is defined and executed immediately after its definition.
+
+✅ Map method 
+Applies a function to each element of the array amd returns a new array.
+Ex- doubling of array
+
+✅ Filter method filters an array based on a condition, and creates a new array. 
+Ex- finding even  or odd nos
+
+✅ Reduce method: 
+ process  array and reduce it to a single value!
+Ex- summing elements, flattening of array
+
+✅ DOM
+full form: document object model. 
+It is a programming interface for HTML documents. 
+
+✅ What is BOM?
+BOM (Browser Object Model) is a collection of objects and
+This collection contains  browser window, history, location and other components. 
+
+✅ Use strict
+It is a feature that allows to write cleaner safer and more optimized JavaScript code..
+
+✅ Settimeout
+Is used to invoke a function once. 
+
+✅ Setintervals
+Is used to repeatedly invoke a function at specificied interval
+
+✅ Closure is a function that has access to its own scope, the outer function's variables, 
+and global variables, even after the outer function has returned.
+
+
+✅ Arrow function
+Concise way to write function. 
+Do not bind this value.
+
+✅ Properties of arrow functions
+Arrow function do not have their own this, they inherit the value of this from parent
+
+
+✅ Destructuring 
+Is A syntax to extract values from arrays or objects. 
+It was introduced to simplify code and make it more readable.
+
+✅ Rest operator (...)
+Rest operator collecs the arguments in a array.
+
+
+✅ Spread operator (...)
+used to expand elements an array or object into individual elements.
+
+✅ Promise 
+Definition- Promise is the future result of an asynchronous operation. 
+where it is used: to handle asynchronous operations like fetching data.
+Properties: state and result
+3 states : pending, fulfilled rejected. 
+
+✅ ASYNC AND KEYWORDS
+Async await is syntactic sugar built on the top of promises. 
+They are introduced to handle async operation in a synchronous like manner. 
+Async functions return promise , await pauses the execution until the promise is resolved.
+
+✅ What are classes? 
+Classes are templates to create JavaScript objects.
+
+
+✅ How to select an element in the Dom
+by methods like document.get element by ID, get elements by class name, 
+get elements by tag name, query selector, query selector all
+
+
+✅ Event loop
+It helps JavaScript to handle asynchronous operations efficiently. 
+It enables the non blocking IO operations. 
+
+Part of event loop
+Call stack
+Call back queue
+Microtask que
+
+
+✅ What is memoization?
+Memoization is an optimization technique 
+where the results of expensive function calls are cached and reused.
+
+✅ What is the difference between debounce and throttle?
+Debounce delays the execution of a function until a certain amount of time has passed.
+Throttle limits the execution of a function to once every specified interval.
 Notes
