@@ -1,0 +1,29 @@
+BASIC TOPICS MUST FOR INTERVIEW
+let var const
+Hoisting
+
+Data Types
+Undefined vs null
+Javascript object
+
+
+Callback Functions
+Regular vs Arrow Function:
+IIFE
+Callback functions
+closures
+Use strict mode
+
+BOM DOM
+Array methods: map filter reduce forEach()
+Sread and Rest operator and their use cases
+Destructuring
+Set Timeout vs setInterval
+Promise, async await
+
+ 
+ADVANCE
+Memoization
+Debounce vs throttle
+Event Loop
+Classes 
