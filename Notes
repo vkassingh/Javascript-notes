@@ -1,6 +1,6 @@
 ✅ Data Types
-Primitive: String, Number, Boolean, Null, Undefined, Symbol, BigInt
-Reference: Object, Array, Function
+Primitive: String, Number, Boolean, BigInt, Null, Undefined, Symbol
+Non Primitive: Object, Array, 
 
 ✅ JavaScript Object
 Object is a collection of key-value pairs.
