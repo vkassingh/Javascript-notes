@@ -14,11 +14,11 @@ Const - block scoped, cannot be redeclared or updated.
 ✅ Hoisting
 It is the defailt behaviour by which the variable and function declaration are moved 
 to top of scope. 
-
+Note: functions are fully hoisted, function expression not hoisted, classesnot hoisted!
 
 ✅ Null vs undefined
-Null - represents intentional absence of  value
-undefined- represents absence of value because a variable is not assigned any value.
+Null - Means a variable is explicitly set to "no value" 
+undefined- means variable is declared but not assigned value.
 
 ✅ Callbacks functions
 Are functions that are passed as an argument to another functions. 
@@ -28,7 +28,7 @@ It is a JavaScript function that is defined and executed immediately after its d
 
 ✅ Map method 
 Applies a function to each element of the array amd returns a new array.
-Ex- doubling of array
+use case- doubling of array
 
 ✅ Filter method filters an array based on a condition, and creates a new array. 
 Ex- finding even  or odd nos
