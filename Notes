@@ -55,7 +55,7 @@ Is used to invoke a function once after a delay.
 used to repeatedly invoke a function at a specified time interval, until it is cleared. 
 
 ✅ Closure is a function inside another function that has access to its outer scope even after the outer function has returned.
-use: data hiding
+use case: data hiding, privacy
 
 
 ✅ Arrow function
@@ -71,11 +71,11 @@ Is A syntax to extract values from arrays or objects.
 It was introduced to simplify code and make it more readable.
 
 ✅ Rest operator (...)
-Rest operator collecs the arguments in a array.
+Rest operator collects the arguments in a array.
 
 
 ✅ Spread operator (...)
-used to expand elements an array or object into individual elements.
+used to expand array or object into individual elements.
 
 ✅ Promise 
 Definition- Promise is the future result of an asynchronous operation. 
