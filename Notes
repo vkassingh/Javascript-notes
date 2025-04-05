@@ -40,22 +40,22 @@ Ex- summing elements, flattening of array
 ✅ DOM
 full form: document object model. 
 It is a programming interface for HTML documents. 
+It represents our document as a tree of nodes.
 
 ✅ What is BOM?
-BOM (Browser Object Model) is a collection of objects and
-This collection contains  browser window, history, location and other components. 
+BOM (Browser Object Model) is a collection of objects like browser window, history, location. 
 
 ✅ Use strict
 It is a feature that allows to write cleaner safer and more optimized JavaScript code..
 
 ✅ Settimeout
-Is used to invoke a function once. 
+Is used to invoke a function once after a delay. 
 
 ✅ Setintervals
-Is used to repeatedly invoke a function at specificied interval
+used to repeatedly invoke a function at a specified time interval, until it is cleared. 
 
-✅ Closure is a function that has access to its own scope, the outer function's variables, 
-and global variables, even after the outer function has returned.
+✅ Closure is a function inside another function that has access to its outer scope even after the outer function has returned.
+use: data hiding
 
 
 ✅ Arrow function
