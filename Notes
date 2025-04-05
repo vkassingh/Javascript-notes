@@ -1,3 +1,5 @@
+Javascript: single threaded
+
 ✅ Data Types
 Primitive: String, Number, Boolean, BigInt, Null, Undefined, Symbol
 Non Primitive: Object, Array, 
@@ -78,12 +80,12 @@ Rest operator collects the arguments in a array.
 used to expand array or object into individual elements.
 
 ✅ Promise 
-Definition- Promise is the future result of an asynchronous operation. 
-where it is used: to handle asynchronous operations like fetching data.
+Definition- Promise is an object that stores the future result of an asynchronous operation. 
+Use Case: to handle asynchronous operations like fetching data.
 Properties: state and result
-3 states : pending, fulfilled rejected. 
+3 states of promise : pending, fulfilled, rejected. 
 
-✅ ASYNC AND KEYWORDS
+✅ ASYNC AND AWAIT KEYWORDS
 Async await is syntactic sugar built on the top of promises. 
 They are introduced to handle async operation in a synchronous like manner. 
 Async functions return promise , await pauses the execution until the promise is resolved.
@@ -91,25 +93,26 @@ Async functions return promise , await pauses the execution until the promise is
 ✅ What are classes? 
 Classes are templates to create JavaScript objects.
 
-
-✅ How to select an element in the Dom
+✅ How to select an element in the Dom?
 by methods like document.get element by ID, get elements by class name, 
 get elements by tag name, query selector, query selector all
 
 
 ✅ Event loop
-It helps JavaScript to handle asynchronous operations efficiently. 
+It is a mechanism that helps JavaScript to handle asynchronous operations efficiently. 
 It enables the non blocking IO operations. 
 
 Part of event loop
-Call stack
-Call back queue
-Microtask que
+1. Call stack
+2. Callback Queue- stores macrotasks like:setTimeout, setInterval
+3. Microtask queue - Stores microtasks like:  Promises
+Extra: Even though JS is single-threaded, the event loop allows it to behave asynchronously.
 
+Priority order with example: call stack( console.logs), then microtask queue (promise) , then callback queue( setTimeout) 
 
 ✅ What is memoization?
 Memoization is an optimization technique 
-where the results of expensive function calls are cached and reused.
+in which the results of expensive function calls are cached and reused.
 
 ✅ What is the difference between debounce and throttle?
 Debounce delays the execution of a function until a certain amount of time has passed.
