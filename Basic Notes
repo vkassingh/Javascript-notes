@@ -115,8 +115,10 @@ Memoization is an optimization technique
 in which the results of expensive function calls are cached and reused.
 
 ✅ What is the difference between debounce and throttle?
-Debounce delays the execution of a function until a certain amount of time passed.
-usecase: Search box suggestions, auto save
+Debounce delays function execution until some time is passed.
+- it runs once after a delay with no new triggers.
+usecase: Search box suggestions
 
 Throttling ensures a function is called at most once in a specified time period.
-Notes
+- it runs at interval.
+usecase: API rate limiting
