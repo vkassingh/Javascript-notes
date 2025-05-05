@@ -87,6 +87,7 @@ Properties: state and result
 
 ✅ ASYNC AND AWAIT KEYWORDS
 Async await is syntactic sugar built on the top of promises. 
+It provides a cleaner syntax to work with Promises.
 They are introduced to handle async operation in a synchronous like manner. 
 Async functions return promise , await pauses the execution until the promise is resolved.
 
